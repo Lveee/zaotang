@@ -1,0 +1,9 @@
+<!--start.wxml-->
+
+<button class="btn1" bindtap="getDataFromOneNet">
+查看温度情况</button>
+
+<text id="text">
+点击以下按钮进行位置预约
+（注意：超过10分钟未刷卡签到则自动取消）</text>
+<button class="btn2" bindtap='jumpPage'>查看空位情况</button>

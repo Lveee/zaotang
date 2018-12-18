@@ -1,0 +1,29 @@
+
+<view class="table">
+
+  <view class="tr bg-w">
+
+    <view class="th">位置编号</view>
+
+    <view class="th">位置情况</view>
+
+    <view class="th ">预约</view>
+
+  </view>
+  
+    <view class="tr bg-g">
+      
+      <view class="td" >01</view>
+
+      <view class="td" wx:if="{{condition}}">有人</view>
+
+      <view class="td" wx:else="{{condition}}">无人</view>
+
+      <button class="{{isChecked?'normal':'isChecked'}}" bindtap="click">预约</button>
+
+
+    </view>
+
+    
+   
+</view>

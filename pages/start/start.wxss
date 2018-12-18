@@ -1,0 +1,35 @@
+/* start.wxss */
+
+  .btn1{
+  width: 50%;
+  position: fixed;
+  bottom: 30rpx;
+  background-color:blue;
+  color: whitesmoke
+  }
+  
+#text{
+
+  color: #888888;
+
+  font-family:PingFangSC-Regular;
+
+  font-size:12px;
+
+  top: 70%;
+
+  left: 17%;
+
+  position: absolute
+
+  }
+  .btn2{
+  width: 50%;
+  left: 50%;
+  position: fixed;
+  bottom: 30rpx;
+  color: white;
+  background-color:rgb(135, 135, 221);
+  }
+
+  

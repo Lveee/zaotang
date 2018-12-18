@@ -1,0 +1,76 @@
+
+.table {
+
+  border: 0px solid darkgray;
+
+}
+
+.tr {
+
+  display: flex;
+
+  width: 100%;
+
+  justify-content: center;
+
+  height: 3rem;
+
+  align-items: center;
+
+}
+
+.td {
+
+    width:40%;
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+.bg-w{
+
+  background: snow;
+
+}
+
+.bg-g{
+
+  background: #E6F3F9;
+
+}
+
+bg-r{
+  background: rgb(219, 107, 135)
+}
+
+.th {
+
+  width: 40%;
+
+  justify-content: center;
+
+  background:blue;
+
+  color: #fff;
+
+  display: flex;
+
+  height: 3rem;
+
+  align-items: center;
+
+}
+
+ .isChecked{
+  width: 35%;
+  background-color:rgb(51, 212, 121);
+  color: black
+  }
+
+  .normal{
+  width: 35%;
+  background-color:gray;
+  color: black
+  }
